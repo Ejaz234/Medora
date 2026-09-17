@@ -17,7 +17,13 @@ if (!clerkPublishableKey) {
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ClerkProvider publishableKey={clerkPublishableKey}>
+   <ClerkProvider
+  publishableKey={clerkPublishableKey}
+  signInUrl="/sign-in"
+  signUpUrl="/sign-up"
+  signInFallbackRedirectUrl="/dashboard"
+  signUpFallbackRedirectUrl="/dashboard"
+  >
       <BrowserRouter>
         <App />
       </BrowserRouter>
