@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "question": "What are the symptoms of diabetes?",
+    "type": "in_domain"
+  },
+  {
+    "id": 2,
+    "question": "What is diabetes mellitus?",
+    "type": "in_domain"
+  },
+  {
+    "id": 3,
+    "question": "What is hyperglycemia?",
+    "type": "in_domain"
+  },
+  {
+    "id": 4,
+    "question": "What are the symptoms of asthma?",
+    "type": "in_domain"
+  },
+  {
+    "id": 5,
+    "question": "What causes asthma?",
+    "type": "in_domain"
+  },
+  {
+    "id": 6,
+    "question": "What are the symptoms of pneumonia?",
+    "type": "in_domain"
+  },
+  {
+    "id": 7,
+    "question": "What causes pneumonia?",
+    "type": "in_domain"
+  },
+  {
+    "id": 8,
+    "question": "What are the symptoms of anemia?",
+    "type": "in_domain"
+  },
+  {
+    "id": 9,
+    "question": "What is hypertension?",
+    "type": "in_domain"
+  },
+  {
+    "id": 10,
+    "question": "What are the symptoms of high blood pressure?",
+    "type": "in_domain"
+  },
+  {
+    "id": 11,
+    "question": "What is a migraine?",
+    "type": "in_domain"
+  },
+  {
+    "id": 12,
+    "question": "What are common symptoms of migraine?",
+    "type": "in_domain"
+  },
+  {
+    "id": 13,
+    "question": "What is tuberculosis?",
+    "type": "in_domain"
+  },
+  {
+    "id": 14,
+    "question": "What are the symptoms of tuberculosis?",
+    "type": "in_domain"
+  },
+  {
+    "id": 15,
+    "question": "What is pneumonia?",
+    "type": "in_domain"
+  },
+  {
+    "id": 16,
+    "question": "What are the symptoms of influenza?",
+    "type": "in_domain"
+  },
+  {
+    "id": 17,
+    "question": "What is dehydration?",
+    "type": "in_domain"
+  },
+  {
+    "id": 18,
+    "question": "What are the symptoms of dehydration?",
+    "type": "in_domain"
+  },
+  {
+    "id": 19,
+    "question": "What is an allergic reaction?",
+    "type": "in_domain"
+  },
+  {
+    "id": 20,
+    "question": "What are common symptoms of an allergic reaction?",
+    "type": "in_domain"
+  },
+  {
+    "id": 21,
+    "question": "What are the symptoms of heart failure?",
+    "type": "in_domain"
+  },
+  {
+    "id": 22,
+    "question": "What is a stroke?",
+    "type": "in_domain"
+  },
+  {
+    "id": 23,
+    "question": "What are common signs of a stroke?",
+    "type": "in_domain"
+  },
+  {
+    "id": 24,
+    "question": "What is osteoporosis?",
+    "type": "in_domain"
+  },
+  {
+    "id": 25,
+    "question": "What are the symptoms of osteoporosis?",
+    "type": "in_domain"
+  },
+  {
+    "id": 26,
+    "question": "What is the capital of France?",
+    "type": "out_of_domain"
+  },
+  {
+    "id": 27,
+    "question": "Who is the current president of the United States?",
+    "type": "out_of_domain"
+  },
+  {
+    "id": 28,
+    "question": "What is the largest planet in our solar system?",
+    "type": "out_of_domain"
+  },
+  {
+    "id": 29,
+    "question": "How do I make chocolate cake?",
+    "type": "out_of_domain"
+  },
+  {
+    "id": 30,
+    "question": "What is the latest score in a cricket match?",
+    "type": "out_of_domain"
+  }
+]

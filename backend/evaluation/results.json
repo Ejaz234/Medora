@@ -1,0 +1,656 @@
+{
+  "threshold": 0.35,
+  "metrics": {
+    "total_questions": 30,
+    "in_domain_retrieval_accuracy": 1.0,
+    "out_of_domain_rejection_rate": 1.0,
+    "overall_accuracy": 1.0
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "What are the symptoms of diabetes?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 542.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 437.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 543.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 276.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 274.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is diabetes mellitus?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 543.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 542.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 274.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 300.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 198.0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "What is hyperglycemia?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 543.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 542.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 541.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 274.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 300.0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "What are the symptoms of asthma?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 394.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 393.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 395.0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "What causes asthma?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 393.0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What are the symptoms of pneumonia?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 609.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 383.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 611.0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What causes pneumonia?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 609.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 611.0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What are the symptoms of anemia?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 195.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 196.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 350.0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "question": "What is hypertension?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 410.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 218.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 142.0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "question": "What are the symptoms of high blood pressure?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 195.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 488.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 216.0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What is a migraine?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 302.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 304.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 116.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 615.0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "question": "What are common symptoms of migraine?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 302.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 304.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 584.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 314.0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is tuberculosis?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 323.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 390.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 617.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 609.0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What are the symptoms of tuberculosis?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 383.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 609.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 264.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 535.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 436.0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is pneumonia?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 609.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 610.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 122.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 390.0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "question": "What are the symptoms of influenza?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 609.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 125.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 314.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 69.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 70.0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "question": "What is dehydration?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 457.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 279.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 385.0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "question": "What are the symptoms of dehydration?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 437.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 195.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 107.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 436.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 123.0
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "question": "What is an allergic reaction?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 135.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 133.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 128.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 192.0
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "question": "What are common symptoms of an allergic reaction?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 129.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 128.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 192.0
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "question": "What are the symptoms of heart failure?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 341.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 422.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 342.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 248.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 195.0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "question": "What is a stroke?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 368.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 348.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 372.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 166.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 457.0
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "question": "What are common signs of a stroke?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 368.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 584.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 346.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 437.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 371.0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "question": "What is osteoporosis?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 553.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 555.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 554.0
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "question": "What are the symptoms of osteoporosis?",
+      "type": "in_domain",
+      "retrieved_chunks": 5,
+      "status": "PASS",
+      "sources": [
+        {
+          "source": "Medical_book.pdf",
+          "page": 556.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 554.0
+        },
+        {
+          "source": "Medical_book.pdf",
+          "page": 553.0
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "question": "What is the capital of France?",
+      "type": "out_of_domain",
+      "retrieved_chunks": 0,
+      "status": "PASS",
+      "sources": []
+    },
+    {
+      "id": 27,
+      "question": "Who is the current president of the United States?",
+      "type": "out_of_domain",
+      "retrieved_chunks": 0,
+      "status": "PASS",
+      "sources": []
+    },
+    {
+      "id": 28,
+      "question": "What is the largest planet in our solar system?",
+      "type": "out_of_domain",
+      "retrieved_chunks": 0,
+      "status": "PASS",
+      "sources": []
+    },
+    {
+      "id": 29,
+      "question": "How do I make chocolate cake?",
+      "type": "out_of_domain",
+      "retrieved_chunks": 0,
+      "status": "PASS",
+      "sources": []
+    },
+    {
+      "id": 30,
+      "question": "What is the latest score in a cricket match?",
+      "type": "out_of_domain",
+      "retrieved_chunks": 0,
+      "status": "PASS",
+      "sources": []
+    }
+  ]
+}
